@@ -1642,7 +1642,7 @@ MarkerClusterer.BATCH_SIZE_IE = 500;
  * @type {string}
  * @constant
  */
-MarkerClusterer.IMAGE_PATH = "//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m";
+MarkerClusterer.IMAGE_PATH = "https://cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m";
 
 
 /**
@@ -1671,4 +1671,3 @@ if (typeof String.prototype.trim !== 'function') {
     return this.replace(/^\s+|\s+$/g, '');
   };
 }
-
